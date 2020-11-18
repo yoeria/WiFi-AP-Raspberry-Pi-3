@@ -5,10 +5,12 @@ by sharing the incoming internet connection on `eth0` on the `wlan0` device
 (internal WiFi Chip on the new Pi).
 
 ## Goal
+
 Setup your Raspberrypi 3 as a WiFi Access Point (or Router) to share your ethernet connection with friends and family as a nice take-it-with-you WiFi Network.
 
 ## Environment
-This script was tested on 
+
+This script was tested on
 
 - Raspberry-Pi 3 Model B
 - No additonal HW connected
@@ -16,6 +18,7 @@ This script was tested on
 - No changes made to the configuration so far
 
 ## Installing
+
 ```
 git clone https://github.com/sebastianzillessen/WiFi-AP-Raspberry-Pi-3.git
 cd WiFi-AP-Raspberry-Pi-3
@@ -37,13 +40,9 @@ These are parsed in the order. So with
 ```
 ./install.sh TestAP test123
 ```
+
 You would setup your Raspberrypi with a SSID `TestAp` and a Password `test123`.
 
 *NOTE*: As the script runs an update of all installed software at the beginning, it might take some time. So be patient!
-
-
-
-
-
 
 Feel free to modify it.
